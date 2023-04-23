@@ -1,0 +1,1574 @@
+body {
+    background-image: url(gallary/JOES-Website-Background-light-grey.jpg);
+    overflow-x: hidden;
+}
+
+
+
+.main-body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.for-sticky {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 0px;
+    z-index: 99999999;
+    background-image: url(gallary/JOES-Website-Background-light-grey.jpg);
+}
+
+.navbar-header {
+    position: fixed;
+    height: 310px;
+    width: 100%;
+    background-image: url(gallary/JOES-Website-Background-light-grey.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+}
+
+
+#firstnav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999999999;
+    background-image: url(gallary/JOES-Website-Background-light-grey.jpg);
+
+}
+
+.footer-box {
+    margin-bottom: 0px;
+}
+
+.collegename {
+    /* border: 1px solid black; */
+    width: 100%;
+
+    z-index: 999999;
+
+    /* padding: 0px 0px 0px 0px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    text-align: center; */
+    /* background-color: blue; */
+}
+
+.logobox {
+    /* border: 1px solid black; */
+    width: 15%;
+    /* height: 100px; */
+    margin: 0px;
+    padding: 23px;
+
+}
+
+.collegenamebox {
+    font-size: 26px;
+    width: 60%;
+    text-align: center;
+    padding: 0px 0px;
+    font-style: italic;
+}
+
+.phone1 {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 500;
+    margin: -20px 0px 0px -2px;
+
+}
+
+.collegefont {
+    font-size: 3.5rem;
+}
+
+.phone1-left {
+    /* border: 1px solid black; */
+    width: 25%;
+}
+
+.phone1-rt {
+    /* border: 1px solid black; */
+    width: 75%;
+}
+
+.contactbox {
+
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 167px;
+    padding: 0px 0px;
+    font-size: 18px;
+
+}
+
+.contactbox h4 {
+    font-size: x-large;
+}
+
+.logo {
+    width: 100%;
+    /* height=150px; */
+}
+
+.h1 {
+    font-size: 3.5rem;
+}
+
+.h4 {
+    font-size: 1.5rem;
+}
+
+.navbar2 {
+    background-color: #000000c9;
+    /* border-radius: 20px; */
+    padding: 1px 0px 0px 4px;
+    height: 75px;
+    padding: 0px 0px 0px 0px;
+}
+
+#course-drop {
+    color: white;
+    background-color: #000000c9;
+    font-weight: bold;
+    border-color: #000000c9;
+    margin-left: -14px;
+    width: 104%;
+    height: 39px;
+    font-style: italic;
+    border-radius: 0.25rem;
+
+}
+
+.navbar2 li {
+    list-style: none;
+    float: left;
+    margin: 24px 38px 24px -9px;
+
+    padding: 3px 3px 0px 0px;
+
+}
+
+.navbar2-ul {
+    margin-bottom: 0;
+
+}
+
+.navbar2 li a {
+    text-decoration: none;
+    padding: 4px 4px 4px 4px;
+    color: white;
+    height: 35px;
+    font-weight: bold;
+}
+
+.engg {
+    width: 125px;
+    background-color: black;
+    color: white;
+}
+
+
+.navbar2 li a:hover {
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+
+
+.navbar2 input {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 14px 7px;
+    width: 231px;
+    margin: 7px 0px 7px 9px;
+
+}
+
+.login-bon {
+    margin: 4px 38px 24px -9px;
+
+    padding: 0px 0px 0px 0px;
+}
+
+.login-btn {
+    /* float: right; */
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 1px solis white;
+    font-size: x-large;
+
+    /* margin: -79px 45px 24px 0px; */
+    padding: 2px 12px 4px 12px;
+    background-color: brown;
+    color: white;
+}
+
+.btn {
+    border-radius: 20px;
+    border: 1px solis white;
+}
+
+.navbarbox {
+
+    width: 100%;
+    height: 75px;
+    z-index: 999999;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+
+}
+
+
+.search {
+    /* float: right; */
+    padding: 1px 1px 1px 1px;
+    display: inline-block;
+}
+
+.emailfooter {
+    margin: 14px 1px -25px 0px;
+}
+
+.phonefooter {
+    margin: -44px 1px -25px 0px;
+}
+
+.footer {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*  _____________________________________________*/
+.notice {
+    width: 100%;
+    height: 790px;
+    background: url(gallary/untitled.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    position: relative;
+    margin-top: 0px;
+
+}
+
+.notice-left {
+    width: 509px;
+    height: 339px;
+    /* margin: 195px 0px 1px 107px;
+    padding: 22px 0px 0px 53px; */
+    border: 1px solid black;
+    background-color: #f8f9facc;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+}
+
+.notice-box1 {
+    width: 50%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice-box2 {
+    width: 50%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.be-course-name {
+    font-style: italic;
+    font-size: 2.2rem;
+    text-decoration: none !important;
+    color: black;
+    font-weight: bold;
+
+    text-shadow:
+        0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
+
+
+
+
+
+.be-admission {
+    font-style: italic;
+    font-size: 1.6rem;
+    color: black;
+
+    text-shadow:
+        0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+
+}
+
+
+.notice-img {
+    width: 100%;
+    height: 600px;
+
+}
+
+
+
+
+
+.login-password {
+    float: right;
+    width: 100%;
+    margin: -359px 0px 0px 192px;
+    padding: 24px 0px 0px 0px;
+}
+
+
+.formbox {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: url(gallary/JOES-Website-Background-light-grey.jpg);
+    font-style: italic;
+    /* height: 451px; */
+    margin-top: 33px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+
+}
+
+.formbox p {
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.formbox-column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    font-size: 1.40rem;
+    padding: 0px 0px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.formbox-left-left {
+    padding: 5px 0px 5px 14px;
+    /* margin: 14px 0px 18px 0px; */
+    width: 84%;
+    line-height: 2;
+
+}
+
+.User-namebox {
+    padding: 0px 0px 0px 13px;
+    /* margin: 14px 0px 18px 0px; */
+    line-height: 35px;
+
+    width: 87%;
+    border-radius: 0.25rem;
+
+}
+
+.formbox-left {
+    width: 40%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 18px 7px 5px 36px;
+}
+
+.formbox-right {
+    width: 60%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 18px 7px 5px 0px;
+}
+
+.dropdown {
+    padding: 41px 0px 0px 28px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+}
+
+
+
+.regpswd {
+    padding: 20px 0px 23px 28px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+
+}
+
+.reg-conpswd {
+    padding: 24px 0px 0px 28px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.reg-address {
+    padding: 0px 0px 6px 28px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+}
+
+.reg-phone {
+    padding: 0px 0px 0px 28px;
+    margin: 0px 0px 0px 0px;
+    width: 39%;
+    color: black;
+
+
+}
+
+.User-drop {
+    /* padding: 41px 0px 11px 0px;
+    margin: 0px 0px 0px -5px; */
+}
+
+
+.User-name {
+    width: 125px;
+    padding: 15px 0px 23px 28px;
+    margin: 0px 0px 9px -5px;
+    color: black;
+}
+
+
+.login {
+    width: 100%;
+    height: 55px;
+    font-size: x-large;
+    color: #f8f9fa;
+    font-weight: bold;
+    background-color: #000000c9;
+    padding: 13px 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.login-username {
+    width: 100%;
+    margin: -27px 0px 0px 0px;
+    padding: 24px 0px 0px 0px;
+    max-width: 100%;
+    font-style: italic;
+    color: black;
+}
+
+
+
+
+
+
+
+.login-submitbtn {
+    width: 39%;
+    height: 52px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.Visitors-table {
+    /* width: 80%;
+    height: 90%; */
+    font-size: 1.2rem;
+
+    margin: -25px 10px 10px -20px;
+}
+
+.login-username-reg {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btnsubmit-apply {
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 52px;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #212529;
+    color: white;
+}
+
+.placeholder-login {
+    width: 91%;
+    line-height: 40px;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    padding-top: 5px;
+
+}
+
+
+.gallary-three {
+    width: 100%;
+    height: auto;
+    margin: 334px 0px 60px 0px;
+
+}
+
+
+/* gallary box */
+
+
+.gallery-box {
+    width: 100%;
+    height: 222px;
+    /* border: 1px solid black; */
+    position: relative;
+
+
+}
+
+.gallary-one {
+    margin: 280px 0px;
+}
+
+/* .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+.gallery-box-topic {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Lato", Sans-serif;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.2);
+    transition: all 0.3s;
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: 175px;
+}
+
+.onlycourse img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #000000c9;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.seemore {
+    padding: 73px;
+}
+
+.gallery-line {
+    color: #212529;
+    padding: 10px 10px 10px 10px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: red;
+
+}
+
+.button {
+    border-radius: 20px;
+    border: 1px solis white;
+    background-color: brown;
+    color: white;
+    padding: 6px 18px 9px 17px;
+    height: 52px;
+    width: 71px;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .phone1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-style: italic;
+        font-size: 17px;
+        /* font-weight: 200; */
+        margin: -44px 0px 0px -2px;
+    }
+
+    .phone1-left {
+
+        width: 100%;
+        line-height: 0px;
+        margin-bottom: -13px;
+        padding-top: 22px;
+    }
+
+    .aboutus-box {
+        margin-top: 240px;
+    }
+
+    .aboutus-box h1 {
+        font-size: x-large;
+    }
+
+    .Recruiters {
+        text-align: center;
+        margin-top: 413px !important;
+    }
+
+    .aboutus-box {
+        margin-top: 325px !important
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+
+    .navbar2 {
+        /* position: absolute; */
+        display: none;
+        height: 0px;
+        top: 0;
+    }
+
+    #footer-box {
+        margin-top: 43%;
+    }
+
+    .collegefont {
+        font-size: 2.5rem;
+    }
+
+    .button {
+        margin-left: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .contactbox {
+        display: none;
+    }
+
+    .collegenamebox {
+        width: 70%;
+        padding: 32px 0px;
+    }
+
+    .logobox {
+        width: 30%;
+        padding: 0px;
+    }
+
+    .notice-box1 {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .notice-box2 {
+        width: 100%;
+        height: auto;
+        margin: 25px 14px 14px 14px;
+    }
+
+    .notice {
+
+        height: auto;
+        top: 303px;
+        background: none;
+    }
+
+    .notice-left {
+        width: 92%;
+        line-height: 21px;
+        height: 263px;
+    }
+
+    .login {
+        padding: 13px 0px;
+    }
+
+    #course-drop {
+        margin-left: -3px;
+        width: 100%;
+        border-radius: 0.25rem;
+    }
+
+    .User-namebox {
+        padding: 0px 0px 0px 3px;
+    }
+
+    .gallery-box-topic {
+        font-size: 1.5rem;
+    }
+
+    .courses {
+        display: flex;
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+
+    .course-name {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        /* text-align: center; */
+        /* border: 1px solid black; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .undergraduate-box {
+        margin-top: 221px;
+    }
+
+    .collegefont {
+        font-size: 2.0rem;
+        margin-left: 3px;
+    }
+
+    .topnav {
+        display: block;
+        width: 100%;
+    }
+
+    .placement-box {
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .formbox {
+        width: 100%;
+        background-color: #f8f9facc;
+        background-image: none;
+    }
+
+    .be-course-name {
+        font-style: italic;
+        font-size: 1.8rem;
+    }
+
+    .be-admission {
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+
+    .affiliated-clg-text {
+        display: none;
+    }
+
+    .btnsubmit-apply {
+        font-size: large;
+    }
+
+    .courses-inner {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+        transform: none;
+        transition: none;
+
+    }
+
+    .cap-graduate {
+        width: 100% !important;
+    }
+
+    .course-name {
+        width: 33% !important;
+        height: 150px;
+        display: flex;
+        margin: 17px !important;
+    }
+
+
+    .ug-course-text {
+        font-size: 1.75rem;
+        justify-content: center;
+        text-align: center;
+        line-height: 66px;
+    }
+
+    .ug-course {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .undergraduate-box {
+        margin-top: 221px;
+    }
+
+    .collegefont {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .footer {
+        font-size: 18px;
+    }
+
+    .footer-copy {
+        padding-top: 20px;
+    }
+
+    .search {
+        /* float: right; */
+        padding: 1px 1px 1px 1px;
+        display: none;
+    }
+
+    .aboutus-box {
+
+        margin-top: 269px;
+    }
+
+    .placement-box {
+        height: 1000px !important;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .placement {
+        width: 42% !important;
+        height: 132px;
+        /* border: 1px solid black; */
+        display: inline-block;
+        /* margin: 10px 10px 10px 10px; */
+        padding: 15px 15px 15px 15px !important;
+    }
+
+    .aboutus-box {
+        width: 100% !important;
+        height: auto;
+
+        font-weight: 400;
+        line-height: 1.5 !important;
+        padding: 0px 15px 2px 15px !important;
+        margin-bottom: 80px;
+        color: black;
+        font-size: 26px;
+        text-align: justify;
+    }
+
+    .formbox p {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .formbox-left {
+        width: 40%;
+        /* border: 1px solid black; */
+        margin: auto;
+        padding: 18px 7px 5px 15px;
+    }
+
+    .placement-content {
+        width: 50% !important;
+        height: auto !important;
+        /* border: 1px solid black; */
+        text-align: center;
+        margin-top: 0px !important;
+        padding: 0px !important;
+        color: white;
+        background-color: #777;
+        font-size: 1rem;
+
+    }
+
+    #placement-content {
+        width: 50% !important;
+        height: auto !important;
+        /* border: 1px solid black; */
+        text-align: center;
+        margin-top: 0px !important;
+        padding: 0px !important;
+        color: white;
+        background-color: #777;
+        font-size: 1rem;
+
+    }
+
+    .login-user-top {
+        padding: 0px;
+    }
+
+    .login-user {
+        font-size: 16px !important;
+       
+        width: 40%;
+        color: black;
+        padding-left: 5px !important;
+        line-height: 1.75;
+        font-weight: bold;
+    }
+
+    .Visitors-login {
+        width: 95% !important;
+    }
+
+    .placeholder-login {
+        width: 91%;
+        line-height: 20px;
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .Recruiters{
+        font-size: 16px;
+        margin-top: 347px !important;
+
+    }
+    .notice-box1 {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+
+/* @media only screen and (max-width: 400px) {
+
+    .course-name {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        padding: 15px;
+    }
+    
+} */
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------GALERY OVER------------------ */
+.gallery-box1 {
+    width: 100%;
+    height: 453px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-box2 {
+    width: 100%;
+    height: 524px;
+    margin-bottom: 0px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.courses {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.courses-inner {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.course-name {
+    width: 25%;
+    height: 150px;
+    display: flex;
+    margin: 10px;
+
+}
+
+.onlycourse {
+    display: flex;
+    flex-direction: column;
+    background-size: 52px 50px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-align: center;
+
+}
+
+.cap-graduate {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -60px;
+    padding: 9px;
+}
+
+.cap-graduate img {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+
+}
+
+.course-name:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+
+
+.each-course {
+    line-height: 64px;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -12px;
+}
+
+.each-course-1 {
+    margin-top: 13%;
+}
+
+.v1 {
+    border-left: 2px solid black;
+    height: 100px;
+}
+
+.footer-copy {
+    width: 100%;
+    height: 78px;
+    border: 1px solid #000000c9;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: -9px;
+    color: white;
+    background-color: #000000c9;
+    font-size: x-large;
+}
+
+
+.footer {
+    padding-top: 18px;
+    width: 100%;
+    height: 126px;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: white;
+    background-color: #0000009e;
+
+
+}
+
+div.gallery1 {
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.gallery1:hover {
+    border: 1px solid #777;
+}
+
+/* login start */
+
+#footer-best {
+    margin-top: 50px;
+}
+
+.login-box {
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+
+.login-box1 {
+    margin: 4px 38px 24px -9px;
+    border: 1px solid black;
+    width: 40%;
+    height: 150px;
+    display: flex;
+
+    padding: 0px 0px 0px 0px;
+}
+
+.formbox-login. {
+    /* background-color: white; */
+    background-color: #21252912;
+    width: 70%;
+    height: 556px;
+    margin: 112px 0px 1px 95px;
+    padding: 25px 20px 20px 20px;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate:(-50%, -50%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+/* login page */
+
+.login-table-box {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 375px;
+    margin-bottom: 100px;
+
+}
+
+.Visitors-login {
+    /* border: 1px solid black; */
+    /* background-color: #bbb; */
+    width: 36%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    /* margin-top: -23px; */
+    text-decoration: none;
+    /* border: 1px solid black; */
+    background-color: #77777773;
+
+}
+
+.Visitors-login table {
+    width: 63%;
+    height: auto;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #bbb;
+}
+
+.login-user {
+
+    font-size: 22px;
+    width: 40%;
+    color: black;
+    padding-left: 23px;
+    line-height: 1.75;
+    font-weight: bold;
+}
+
+.login-user-textbox {
+    font-style: 22px;
+    width: 60%;
+    /* padding-right: 22px; */
+    border-radius: 0.25rem;
+    border: none;
+
+    /* padding: 10px 10px; */
+
+
+}
+
+.login-user-top {
+    width: 100%;
+    height: 60px;
+    font-size: x-large;
+    color: #f8f9fa;
+    font-weight: bold;
+    background-color: #212529;
+    /* margin: -25px 8px 19px -20px; */
+    /* padding: 5px 0px 2px 26px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    text-align: center;
+}
+
+.btn-loginpage1 {
+    width: 86%;
+    border-radius: 20px;
+    height: 40px;
+    /* margin-bottom: 13px; */
+    border: none;
+    font-size: large;
+    background-color: #000000c9;
+    color: white;
+    margin: 20px;
+}
+
+.login-now {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 211px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#lock-fa {
+    /* padding-left: 28px; */
+
+}
+
+/* about us starts */
+
+
+.aboutus-box {
+    width: 90%;
+    height: auto;
+    border: 1px splid black;
+    font-weight: 400;
+    line-height: 1.85;
+    padding: 63px 0px 2px 138px;
+    margin-bottom: 80px;
+    color: black;
+    font-size: 26px;
+    text-align: justify;
+    margin-top: 227px;
+}
+
+/* courses starts*/
+.ug-headertext {
+    margin-top: 300px;
+}
+
+.undergraduate-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 180px;
+}
+
+
+.ug-course {
+    border: 1px solid black;
+    width: 348px;
+    height: 123px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    border-left: 6px solid black;
+    cursor: pointer;
+    text-align: center;
+}
+
+.ug-course:hover {
+    /* border: 1px solid #777; */
+
+    background-color: #777;
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+
+.ug-course-text {
+    font-size: 1.75rem;
+    justify-content: center;
+    text-align: center;
+    line-height: 123px;
+
+
+}
+
+.Recruiters {
+    text-align: center;
+    margin-top: 350px;
+    font-size: x-large;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+/* placements start */
+.placement-box {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-self: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-top: 342px; */
+    background-color: #777;
+
+}
+
+.placement-content {
+    width: 25%;
+    height: 141px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 154px;
+    padding: 0px 150px;
+    color: white;
+    background-color: #777;
+    font-size: 1.5rem;
+}
+
+.placement-content:hover {
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
+
+.salary {
+    border: 2px solid white;
+
+}
+
+.placementimg1 {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    bottom: 65px;
+    margin-bottom: 65px;
+    border-radius: 20px;
+
+}
+
+.placement {
+    width: 15%;
+    height: 132px;
+    /* border: 1px solid black; */
+    display: inline-block;
+
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.placement-images {
+    /* border: 1px solid black; */
+    width: 77%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 99;
+    margin-top: -176px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+}
+
+.coy-image {
+    width: 100%;
+    height: 100px;
+}
+
+.placement:hover {
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
