@@ -20,10 +20,10 @@ body {
 }
 
 .navbar-header {
-    position: fixed;
-    height: 310px;
+    /* position: fixed; */
+    height: 259px;
     width: 100%;
-    background-image: url(gallary/JOES-Website-Background-light-grey.jpg);
+    /* background-image: url(gallary/JOES-Website-Background-light-grey.jpg); */
     top: 0;
     left: 0;
     right: 0;
@@ -60,11 +60,11 @@ body {
 }
 
 .logobox {
-    /* border: 1px solid black; */
+
     width: 15%;
-    /* height: 100px; */
+
     margin: 0px;
-    padding: 23px;
+    padding: 6px !important;
 
 }
 
@@ -72,8 +72,9 @@ body {
     font-size: 26px;
     width: 60%;
     text-align: center;
-    padding: 0px 0px;
+    padding: 8px 0px;
     font-style: italic;
+    line-height: 16px;
 }
 
 .phone1 {
@@ -83,24 +84,34 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     font-style: italic;
-    font-size: larger;
+    font-size: 16px;
     font-weight: 500;
     margin: -20px 0px 0px -2px;
 
 }
 
+.affiliated-clg-text {
+    margin-top: -20px 0px !important;
+}
+
+.fa-envelope,
+.fa-phone {
+    font-size: 16px !important;
+    color: #ad974f;
+}
+
 .collegefont {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .phone1-left {
     /* border: 1px solid black; */
-    width: 25%;
+    width: 30%;
 }
 
 .phone1-rt {
     /* border: 1px solid black; */
-    width: 75%;
+    width: 60%;
 }
 
 .contactbox {
@@ -114,7 +125,8 @@ body {
 }
 
 .contactbox h4 {
-    font-size: x-large;
+    font-size: large;
+    margin-left: -4px;
 }
 
 .logo {
@@ -133,7 +145,7 @@ body {
 .navbar2 {
     background-color: #000000c9;
     /* border-radius: 20px; */
-    padding: 1px 0px 0px 4px;
+
     height: 75px;
     padding: 0px 0px 0px 0px;
 }
@@ -248,17 +260,21 @@ body {
 }
 
 .footer {
-    font-size: x-large;
+    font-size: large;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.footer-copy h5 {
+    font-size: 19px !important;
+}
+
 /*  _____________________________________________*/
 .notice {
     width: 100%;
-    height: 790px;
+    height: auto;
     background: url(gallary/untitled.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -266,15 +282,15 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    top: 300px;
+    top: 0px;
     position: relative;
     margin-top: 0px;
 
 }
 
 .notice-left {
-    width: 509px;
-    height: 339px;
+    width: 428px;
+    height: 299px;
     /* margin: 195px 0px 1px 107px;
     padding: 22px 0px 0px 53px; */
     border: 1px solid black;
@@ -285,6 +301,15 @@ body {
     align-items: center;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 
+}
+
+.notice-left-detail {
+    width: 80%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+    text-align: left;
 }
 
 .notice-box1 {
@@ -308,7 +333,7 @@ body {
 
 .be-course-name {
     font-style: italic;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     text-decoration: none !important;
     color: black;
     font-weight: bold;
@@ -334,7 +359,7 @@ body {
 
 .be-admission {
     font-style: italic;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: black;
 
     text-shadow:
@@ -395,7 +420,7 @@ body {
 
 .formbox p {
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 
 }
 
@@ -518,7 +543,9 @@ body {
 
 
 
-
+.placemrnt-high {
+    font-weight: bold;
+}
 
 
 
@@ -554,7 +581,7 @@ body {
     width: 25%;
     height: 52px;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
     background-color: #212529;
     color: white;
 }
@@ -562,7 +589,7 @@ body {
 .placeholder-login {
     width: 91%;
     line-height: 40px;
-    font-size: 1.2rem;
+    font-size: 17px;
     border-radius: 0.25rem;
     border: 1px solid black;
     padding-top: 5px;
@@ -573,7 +600,7 @@ body {
 .gallary-three {
     width: 100%;
     height: auto;
-    margin: 334px 0px 60px 0px;
+    /* margin: 334px 0px 60px 0px; */
 
 }
 
@@ -606,7 +633,7 @@ body {
     align-items: center;
     justify-content: center;
     color: black;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     font-family: "Lato", Sans-serif;
 }
@@ -705,17 +732,28 @@ div.desc {
     .phone1 {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row !important;
         flex-wrap: wrap;
         font-style: italic;
         font-size: 17px;
         /* font-weight: 200; */
-        margin: -44px 0px 0px -2px;
+        margin: -35px 0px 0px -18px;
     }
 
     .phone1-left {
 
-        width: 100%;
+        width: 30%;
+        line-height: 0px;
+        margin-bottom: -13px;
+        padding-top: 22px;
+    }
+
+    .contactbox h4 {
+        font-size: large;
+        margin-left: -21px;
+    }
+
+    .phone1-rt {
         line-height: 0px;
         margin-bottom: -13px;
         padding-top: 22px;
@@ -731,12 +769,17 @@ div.desc {
 
     .Recruiters {
         text-align: center;
-        margin-top: 413px !important;
+        margin-top: 0px !important;
     }
 
     .aboutus-box {
-        margin-top: 325px !important
+        margin-top: 0px !important
     }
+
+    .login-table-box {
+        margin-top: 117px !important;
+    }
+
 }
 
 
@@ -759,7 +802,7 @@ div.desc {
     }
 
     #footer-box {
-        margin-top: 43%;
+        /* margin-top: 43%; */
     }
 
     .collegefont {
@@ -817,12 +860,12 @@ div.desc {
     .notice {
 
         height: auto;
-        top: 303px;
+        top: 0px;
         background: none;
     }
 
     .notice-left {
-        width: 92%;
+        width: 100%;
         line-height: 21px;
         height: 263px;
     }
@@ -895,9 +938,21 @@ div.desc {
         background-image: none;
     }
 
+    .navbar2 {
+        /* position: absolute; */
+        display: none;
+        height: 0px;
+        top: 0;
+    }
+
+    .topnav {
+        display: block;
+        width: 100%;
+    }
+
     .be-course-name {
         font-style: italic;
-        font-size: 1.8rem;
+        font-size: 22px;
     }
 
     .be-admission {
@@ -958,12 +1013,16 @@ div.desc {
     }
 
     .collegefont {
+
         font-size: 2rem;
         margin-top: 10px;
+        line-height: 30px;
+
     }
 
     .footer {
         font-size: 18px;
+
     }
 
     .footer-copy {
@@ -989,7 +1048,7 @@ div.desc {
     }
 
     .placement {
-        width: 42% !important;
+        width: 41% !important;
         height: 132px;
         /* border: 1px solid black; */
         display: inline-block;
@@ -1000,7 +1059,7 @@ div.desc {
     .aboutus-box {
         width: 100% !important;
         height: auto;
-
+        margin-top: -54px !important;
         font-weight: 400;
         line-height: 1.5 !important;
         padding: 0px 15px 2px 15px !important;
@@ -1027,12 +1086,12 @@ div.desc {
         height: auto !important;
         /* border: 1px solid black; */
         text-align: center;
-        margin-top: 0px !important;
-        padding: 0px !important;
+        margin-top: 12px !important;
+        padding: 9px !important;
         color: white;
         background-color: #777;
         font-size: 1rem;
-
+        margin: 10px;
     }
 
     #placement-content {
@@ -1048,13 +1107,13 @@ div.desc {
 
     }
 
-    .login-user-top {
+    */ .login-user-top {
         padding: 0px;
     }
 
     .login-user {
         font-size: 16px !important;
-       
+
         width: 40%;
         color: black;
         padding-left: 5px !important;
@@ -1072,16 +1131,29 @@ div.desc {
         font-size: 13px;
         padding-top: 5px;
     }
-    .Recruiters{
+
+    .Recruiters {
         font-size: 16px;
-        margin-top: 347px !important;
+        margin-top: -7px !important;
 
     }
+
     .notice-box1 {
         width: 100%;
         height: auto;
-        margin: 10px;
+
     }
+
+    .notice {
+        top: 0px;
+    }
+
+    .notice-left {
+        width: 100%;
+        line-height: 21px;
+        height: 274px;
+    }
+
 }
 
 
@@ -1095,6 +1167,7 @@ div.desc {
     }
     
 } */
+@media only screen and (max-width: 372px) {}
 
 @media only screen and (max-width: 700px) {
     .responsive {
@@ -1233,7 +1306,7 @@ div.desc {
     margin-bottom: -9px;
     color: white;
     background-color: #000000c9;
-    font-size: x-large;
+    font-size: large;
 }
 
 
@@ -1314,7 +1387,7 @@ div.gallery1:hover {
     align-items: center;
     justify-content: center;
     /* border: 1px solid black; */
-    margin-top: 375px;
+    margin-top: 127px;
     margin-bottom: 100px;
 
 }
@@ -1348,7 +1421,7 @@ div.gallery1:hover {
 
 .login-user {
 
-    font-size: 22px;
+    font-size: 20px;
     width: 40%;
     color: black;
     padding-left: 23px;
@@ -1419,12 +1492,24 @@ div.gallery1:hover {
     border: 1px splid black;
     font-weight: 400;
     line-height: 1.85;
-    padding: 63px 0px 2px 138px;
+    padding: 0px 0px 2px 138px;
     margin-bottom: 80px;
     color: black;
     font-size: 26px;
     text-align: justify;
-    margin-top: 227px;
+    margin-top: 0px;
+
+}
+
+.aboutus-box p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -22px;
+}
+
+.aboutus-box li {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* courses starts*/
@@ -1479,7 +1564,7 @@ div.gallery1:hover {
 
 .Recruiters {
     text-align: center;
-    margin-top: 350px;
+    margin-top: 0px;
     font-size: x-large;
     font-weight: 400;
     font-size: 26px;
@@ -1507,7 +1592,7 @@ div.gallery1:hover {
     /* border: 1px solid black; */
     text-align: center;
     margin-top: 154px;
-    padding: 0px 150px;
+    padding: 0px 84px;
     color: white;
     background-color: #777;
     font-size: 1.5rem;
@@ -1539,7 +1624,7 @@ div.gallery1:hover {
 }
 
 .placement {
-    width: 15%;
+    width: 14%;
     height: 132px;
     /* border: 1px solid black; */
     display: inline-block;

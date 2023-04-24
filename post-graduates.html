@@ -18,39 +18,39 @@
     <div class="main-body">
         <div class="navbar-header" id="firstnav ">
             <!-- <div class="bodystart"> -->
-            <div class="collegename">
+                <div class="collegename">
 
 
-                <div class="logobox">
-                    <img src="gallary/pngtree.png" alt="" class="logo" width="100%" height="165px">
-
-                </div>
-                <div class="collegenamebox">
-                    <h1 class="collegefont">Pune Technical Institutes</h1>
-                    <h4 class="affiliated-clg-text">Affiliated to Pune University</h4>
-
-                </div>
-                <div class="contactbox">
-                    <h4 style="font-style: italic;">Contact us</h4>
-
-                    <div class="phone1">
-                        <div class="phone1-left">
-                            <p><i class="fa fa-phone" style="font-size:24px;color:#ad974f"></i> Phone :</p>
+                    <div class="logobox">
+                        <img src="gallary/pngtree.png" alt="" class="logo" width="100%" height="144px">
+    
+                    </div>
+                    <div class="collegenamebox">
+                        <h1 class="collegefont">Pune Technical Institutes</h1>
+                        <h6 class="affiliated-clg-text">Affiliated to Pune University</h6>
+    
+                    </div>
+                    <div class="contactbox">
+                        <h4 style="font-style: italic;">Contact us</h4>
+    
+                        <div class="phone1">
+                            <div class="phone1-left">
+                                <p><i class="fa fa-phone"></i> Phone :</p>
+                            </div>
+                            <div class="phone1-rt">
+                                <p>8888950537</p>
+                            </div>
                         </div>
-                        <div class="phone1-rt">
-                            <p>8888950537</p>
+                        <div class="phone1">
+                            <div class="phone1-left">
+                                <p><i class="fa fa-envelope"></i> Email :</p>
+                            </div>
+                            <div class="phone1-rt">
+                                <p>punetechinstitutes@gmail.com</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="phone1">
-                        <div class="phone1-left">
-                            <p><i class="fa fa-envelope" style="font-size:24px; color:#ad974f"></i> Email :</p>
-                        </div>
-                        <div class="phone1-rt">
-                            <p>punetechinstitutes@gmail.com</p>
-                        </div>
-                    </div>
                 </div>
-            </div>
 
             <!-- mobile navbar -->
 
@@ -171,7 +171,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
 </body>
 
 </html>
