@@ -78,16 +78,14 @@ body {
 }
 
 .phone1 {
-
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-style: italic;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
     margin: -20px 0px 0px -2px;
-
 }
 
 .affiliated-clg-text {
@@ -274,8 +272,8 @@ body {
 /*  _____________________________________________*/
 .notice {
     width: 100%;
-    height: auto;
-    background: url(gallary/untitled.png);
+    height: 753px;
+    background: url(gallary/CAPE.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -704,8 +702,8 @@ div.desc {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: red;
+    /* background-color: #ddd; */
+    /* color: red; */
 
 }
 
@@ -714,13 +712,14 @@ div.desc {
     border: 1px solis white;
     background-color: brown;
     color: white;
-    padding: 6px 18px 9px 17px;
+    padding: 16px 0px 0px 19px !important;
     height: 52px;
-    width: 71px;
+    width: 81px;
+    margin: 10px;
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: black;
     color: white;
 }
 
@@ -945,6 +944,10 @@ div.desc {
         top: 0;
     }
 
+    .button {
+        margin: 10px;
+    }
+
     .topnav {
         display: block;
         width: 100%;
@@ -952,12 +955,12 @@ div.desc {
 
     .be-course-name {
         font-style: italic;
-        font-size: 22px;
+        font-size: 19px;
     }
 
     .be-admission {
         font-style: italic;
-        font-size: 1.3rem;
+        font-size: 14px;
     }
 
     .affiliated-clg-text {
@@ -1002,7 +1005,12 @@ div.desc {
         line-height: 66px;
     }
 
+    .ug-boxcover {
+        flex-direction: column;
+    }
+
     .ug-course {
+        width: 100% !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1021,7 +1029,7 @@ div.desc {
     }
 
     .footer {
-        font-size: 18px;
+        font-size: 16px;
 
     }
 
@@ -1065,9 +1073,16 @@ div.desc {
         padding: 0px 15px 2px 15px !important;
         margin-bottom: 80px;
         color: black;
-        font-size: 26px;
+        font-size: 21px !important;
         text-align: justify;
     }
+
+    .ug-headertext {
+        margin-top: -68px;
+        font-size: 16px;
+    }
+
+
 
     .formbox p {
         font-weight: bold;
@@ -1107,7 +1122,7 @@ div.desc {
 
     }
 
-    */ .login-user-top {
+    .login-user-top {
         padding: 0px;
     }
 
@@ -1133,28 +1148,22 @@ div.desc {
     }
 
     .Recruiters {
-        font-size: 16px;
-        margin-top: -7px !important;
+        font-size: 21px !important;
+        margin-top: -48px !important;
 
     }
 
-    .notice-box1 {
-        width: 100%;
-        height: auto;
-
+    .notice-left {
+        width: 94%;
     }
 
     .notice {
         top: 0px;
     }
 
-    .notice-left {
-        width: 100%;
-        line-height: 21px;
-        height: 274px;
-    }
-
 }
+
+
 
 
 /* @media only screen and (max-width: 400px) {
@@ -1513,9 +1522,7 @@ div.gallery1:hover {
 }
 
 /* courses starts*/
-.ug-headertext {
-    margin-top: 300px;
-}
+.ug-headertext {}
 
 .undergraduate-box {
     width: 100%;
@@ -1530,10 +1537,20 @@ div.gallery1:hover {
     margin-bottom: 180px;
 }
 
+.ug-boxcover {
+    width: 80%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .ug-course {
     border: 1px solid black;
-    width: 348px;
+    width: 20%;
     height: 123px;
     border-radius: 20px;
     margin: 10px;
@@ -1557,7 +1574,7 @@ div.gallery1:hover {
     font-size: 1.75rem;
     justify-content: center;
     text-align: center;
-    line-height: 123px;
+    line-height: 65px;
 
 
 }
